@@ -17,3 +17,15 @@ footer {
     height: 02rem;
     margin-top: 0.5rem;
  }
+
+ #container {
+    display: flex;
+ }
+
+ .cartao{
+    margin: 1rem;
+    background-color: azure;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+ }
